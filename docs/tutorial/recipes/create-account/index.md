@@ -1,6 +1,6 @@
 # Creating Accounts
 
-You need an account to transact on Convex. Maybe you have one already, but would like to give on to a friend so that they can also get into the Convex ecosystem early!
+You need an account to transact on Convex. Maybe you have one already, but would like to give one to a friend so that they can also get into the Convex ecosystem early!
 
 This recipe is all how to create accounts for yourself or other users.
 
@@ -108,7 +108,7 @@ With this defined, you can now distribute new accounts with 5 CVM as follows:
 
 ## Removing the controller
 
-Once a user has received their account and is successfully using it, they may wish to remove the controller (or set to to something else) so that the original account creator no longer has control. This can be done with the following command:
+Once a user has received their account and is successfully using it, they may wish to remove the controller (or set it to something else) so that the original account creator no longer has control. This can be done with the following command:
 
 ```clojure
 (set-controller nil)
